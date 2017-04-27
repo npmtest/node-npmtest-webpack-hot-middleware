@@ -1,6 +1,6 @@
 # npmtest-webpack-hot-middleware
 
-#### test coverage for  [webpack-hot-middleware (v2.18.0)](https://github.com/glenjamin/webpack-hot-middleware#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-webpack-hot-middleware.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webpack-hot-middleware) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webpack-hot-middleware.svg)](https://travis-ci.org/npmtest/node-npmtest-webpack-hot-middleware)
+#### basic test coverage for  [webpack-hot-middleware (v2.18.0)](https://github.com/glenjamin/webpack-hot-middleware#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-webpack-hot-middleware.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webpack-hot-middleware) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webpack-hot-middleware.svg)](https://travis-ci.org/npmtest/node-npmtest-webpack-hot-middleware)
 
 #### Webpack hot reloading you can attach to your own server
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-webpack-hot-middleware/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-webpack-hot-middleware/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-webpack-hot-middleware/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-webpack-hot-middleware/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webpack-hot-middleware/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webpack-hot-middleware/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-webpack-hot-middleware/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-webpack-hot-middleware/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webpack-hot-middleware/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webpack-hot-middleware/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-webpack-hot-middleware/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-webpack-hot-middleware/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@
         "test": "mocha",
         "travis": "istanbul cover _mocha --"
     },
-    "version": "2.18.0"
+    "version": "2.18.0",
+    "bin": {}
 }
 ```
 
